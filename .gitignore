@@ -17,3 +17,4 @@
 *.app
 
 lcdplate.c
+*.json

@@ -31,8 +31,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <linux/types.h>
-#include <linux/i2c-dev.h>
 #include <sys/ioctl.h>
+#include <linux/i2c-dev.h>
+#include <i2c/smbus.h>
 
 int fd;
 

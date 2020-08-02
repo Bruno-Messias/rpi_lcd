@@ -36,7 +36,8 @@
  * 						sudo i2cdetect -y 1 - rpi rev 2
  */
 
-#define ADDR 0x20 // i2c Address
+
+#define ADDR 0x // i2c Address
 
 int main(void)
 { 

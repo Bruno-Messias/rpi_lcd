@@ -22,7 +22,6 @@
  * 
  */
 
-
 #include "rpii2c.h"
 
 int fd; // FileDiscriptor
@@ -36,6 +35,7 @@ int fd; // FileDiscriptor
  * Sets up an I2C Device
  * 
  */
+
 void rpiI2cSetup(__u8 addr, __u8 busnum)
 {
 	
@@ -89,7 +89,6 @@ __u8 rpiI2cRead8(__u8 reg)
 	
 	return res;
 }
-
 /*
  * 
  * name: rpiI2cRead16
